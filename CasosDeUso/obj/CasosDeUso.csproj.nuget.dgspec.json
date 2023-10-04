@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\CasosDeUso\\CasosDeUso.csproj": {}
+    "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\CasosDeUso\\CasosDeUso.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\CasosDeUso\\CasosDeUso.csproj": {
+    "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\CasosDeUso\\CasosDeUso.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\CasosDeUso\\CasosDeUso.csproj",
+        "projectUniqueName": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\CasosDeUso\\CasosDeUso.csproj",
         "projectName": "CasosDeUso",
-        "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\CasosDeUso\\CasosDeUso.csproj",
+        "projectPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\CasosDeUso\\CasosDeUso.csproj",
         "packagesPath": "C:\\Users\\Zen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\CasosDeUso\\obj\\",
+        "outputPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\CasosDeUso\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj": {
-                "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj"
+              "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj": {
+                "projectPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj"
               },
-              "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj": {
-                "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj"
+              "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj": {
+                "projectPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj"
               }
             }
           }
@@ -62,18 +62,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23330.10\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj": {
+    "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj",
+        "projectUniqueName": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj",
         "projectName": "EJDLV.Entidades",
-        "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj",
+        "projectPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj",
         "packagesPath": "C:\\Users\\Zen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\obj\\",
+        "outputPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -117,18 +117,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23330.10\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj": {
+    "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj",
+        "projectUniqueName": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj",
         "projectName": "Servicios",
-        "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj",
+        "projectPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj",
         "packagesPath": "C:\\Users\\Zen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\obj\\",
+        "outputPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -145,8 +145,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj": {
-                "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj"
+              "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj": {
+                "projectPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj"
               }
             }
           }
@@ -176,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23330.10\\RuntimeIdentifierGraph.json"
         }
       }
     }
