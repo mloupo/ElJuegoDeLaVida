@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\EJDLV.GUI\\EJDLV.GUI.csproj": {}
+    "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\EJDLV.GUI\\EJDLV.GUI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\EJDLV.GUI\\EJDLV.GUI.csproj": {
+    "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\EJDLV.GUI\\EJDLV.GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\EJDLV.GUI\\EJDLV.GUI.csproj",
+        "projectUniqueName": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\EJDLV.GUI\\EJDLV.GUI.csproj",
         "projectName": "EJDLV.GUI",
-        "projectPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\EJDLV.GUI\\EJDLV.GUI.csproj",
+        "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\EJDLV.GUI\\EJDLV.GUI.csproj",
         "packagesPath": "C:\\Users\\Zen\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\EJDLV.GUI\\obj\\",
+        "outputPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\EJDLV.GUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23330.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

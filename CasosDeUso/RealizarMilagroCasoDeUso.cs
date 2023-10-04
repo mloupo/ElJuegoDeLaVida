@@ -1,5 +1,5 @@
 ﻿using EJDLV.Entidades.Interfaces;
-using EJDLV.Entidades.Personajes;
+using EJDLV.Entidades.PersonajesEspeciales;
 using EJDLV.Entidades.POCO_s;
 using System;
 using System.Collections.Generic;

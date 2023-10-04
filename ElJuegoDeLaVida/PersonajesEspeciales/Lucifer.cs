@@ -1,7 +1,7 @@
 ﻿using EJDLV.Entidades.Interfaces;
 using EJDLV.Entidades.POCO_s;
 
-namespace EJDLV.Entidades.Personajes
+namespace EJDLV.Entidades.PersonajesEspeciales
 {
 	public class Lucifer : ILucifer
 	{
@@ -39,6 +39,11 @@ namespace EJDLV.Entidades.Personajes
 		}
 
 		public void Atacar(Entidad objetivo)
+		{
+			throw new NotImplementedException();
+		}
+
+		public void RealizarAccionEspecial()
 		{
 			throw new NotImplementedException();
 		}

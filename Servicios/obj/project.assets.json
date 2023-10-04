@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj",
+      "projectUniqueName": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj",
       "projectName": "Servicios",
-      "projectPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj",
+      "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj",
       "packagesPath": "C:\\Users\\Zen\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\obj\\",
+      "outputPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Servicios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj": {
-              "projectPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj"
+            "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj": {
+              "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj"
             }
           }
         }
@@ -84,7 +84,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23330.10\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

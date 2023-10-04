@@ -93,6 +93,9 @@ namespace EJDLV.Entidades.POCO_s
 			throw new NotImplementedException();
 		}
 
-		
+		public void RealizarAccionEspecial()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }

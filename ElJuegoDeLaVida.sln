@@ -4,14 +4,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EJDLV.Entidades", "ElJuegoDeLaVida\EJDLV.Entidades.csproj", "{DD2EF613-F653-4324-8356-70C32740DF63}"
+	ProjectSection(ProjectDependencies) = postProject
+		{635A1365-00C2-41CD-9DBF-95EEE4D98840} = {635A1365-00C2-41CD-9DBF-95EEE4D98840}
+		{8C24CDF4-8062-4AA0-826D-428A4014C3D1} = {8C24CDF4-8062-4AA0-826D-428A4014C3D1}
+	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reglas de Negocio de la Aplicacion", "Reglas de Negocio de la Aplicacion", "{0D272289-09E1-4F99-95D5-876E4FC9A87A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Reglas de Negocio de la Aplicacion", "2. Reglas de Negocio de la Aplicacion", "{0D272289-09E1-4F99-95D5-876E4FC9A87A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reglas de Negocio Empresariales", "Reglas de Negocio Empresariales", "{5F6530F7-9D38-46D0-82CB-3102A514AD45}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Reglas de Negocio Empresariales", "1. Reglas de Negocio Empresariales", "{5F6530F7-9D38-46D0-82CB-3102A514AD45}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Estructura y Controladores", "Estructura y Controladores", "{7176D59B-E149-4466-8FC9-D4C09B27929E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Estructura y Controladores", "4. Estructura y Controladores", "{7176D59B-E149-4466-8FC9-D4C09B27929E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adaptadores de Interfaz", "Adaptadores de Interfaz", "{555FF69A-388D-4FA8-B295-8B85193BCC95}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Adaptadores de Interfaz", "3. Adaptadores de Interfaz", "{555FF69A-388D-4FA8-B295-8B85193BCC95}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{1F34177A-04D1-4E46-88DF-C1068F9B24D7}"
 EndProject
@@ -28,9 +32,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Descripcion.txt = Descripcion.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasosDeUso", "CasosDeUso\CasosDeUso.csproj", "{0E1EA3E9-8345-489D-B402-702705F551F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasosDeUso", "CasosDeUso\CasosDeUso.csproj", "{0E1EA3E9-8345-489D-B402-702705F551F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicios", "Servicios\Servicios.csproj", "{61ABB6E2-D9C7-4C69-8996-54348E23FD62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Servicios", "Servicios\Servicios.csproj", "{61ABB6E2-D9C7-4C69-8996-54348E23FD62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,7 +72,7 @@ Global
 		{A203580A-E202-4B3D-9DBB-80F650A5AEE6} = {555FF69A-388D-4FA8-B295-8B85193BCC95}
 		{F4D98D2B-4180-4DF5-829D-6ED3A380BE9A} = {555FF69A-388D-4FA8-B295-8B85193BCC95}
 		{635A1365-00C2-41CD-9DBF-95EEE4D98840} = {5F6530F7-9D38-46D0-82CB-3102A514AD45}
-		{8C24CDF4-8062-4AA0-826D-428A4014C3D1} = {555FF69A-388D-4FA8-B295-8B85193BCC95}
+		{8C24CDF4-8062-4AA0-826D-428A4014C3D1} = {F4D98D2B-4180-4DF5-829D-6ED3A380BE9A}
 		{0E1EA3E9-8345-489D-B402-702705F551F6} = {0D272289-09E1-4F99-95D5-876E4FC9A87A}
 		{61ABB6E2-D9C7-4C69-8996-54348E23FD62} = {0D272289-09E1-4F99-95D5-876E4FC9A87A}
 	EndGlobalSection

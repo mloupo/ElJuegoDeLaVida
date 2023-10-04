@@ -2,11 +2,11 @@
 using EJDLV.Entidades.POCO_s;
 using System;
 
-namespace EJDLV.Entidades.Personajes
+namespace EJDLV.Entidades.PersonajesEspeciales
 {
 	public class Jesus : IJesus
 	{
-	
+
 		public void Atacar(Entidad objetivo)
 		{
 			throw new NotImplementedException();
@@ -20,7 +20,7 @@ namespace EJDLV.Entidades.Personajes
 		{
 			// Jesus se alimenta de la "Fe"
 		}
-	
+
 		public string ExpresarMensaje(string mensaje)
 		{
 			throw new NotImplementedException();
@@ -55,5 +55,9 @@ namespace EJDLV.Entidades.Personajes
 			throw new NotImplementedException();
 		}
 
+		public void RealizarAccionEspecial()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj",
       "projectName": "EJDLV.Entidades",
-      "projectPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj",
+      "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\EJDLV.Entidades.csproj",
       "packagesPath": "C:\\Users\\Zen\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\obj\\",
+      "outputPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\ElJuegoDeLaVida\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23330.10\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
