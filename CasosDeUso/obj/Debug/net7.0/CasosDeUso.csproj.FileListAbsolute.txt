@@ -1,0 +1,5 @@
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\CasosDeUso\obj\Debug\net7.0\CasosDeUso.csproj.AssemblyReference.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\CasosDeUso\obj\Debug\net7.0\CasosDeUso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\CasosDeUso\obj\Debug\net7.0\CasosDeUso.AssemblyInfoInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\CasosDeUso\obj\Debug\net7.0\CasosDeUso.AssemblyInfo.cs
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\CasosDeUso\obj\Debug\net7.0\CasosDeUso.csproj.CoreCompileInputs.cache

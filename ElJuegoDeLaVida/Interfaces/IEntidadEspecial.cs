@@ -15,5 +15,6 @@ namespace EJDLV.Entidades.Interfaces
 		void Comer();
 		void Atacar(Entidad objetivo);
 		void Defenderse();
+		void RealizarAccionEspecial();
 	}
 }

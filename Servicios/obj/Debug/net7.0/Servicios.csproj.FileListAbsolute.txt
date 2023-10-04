@@ -1,0 +1,5 @@
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\Servicios\obj\Debug\net7.0\Servicios.csproj.AssemblyReference.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\Servicios\obj\Debug\net7.0\Servicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\Servicios\obj\Debug\net7.0\Servicios.AssemblyInfoInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\Servicios\obj\Debug\net7.0\Servicios.AssemblyInfo.cs
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\Servicios\obj\Debug\net7.0\Servicios.csproj.CoreCompileInputs.cache

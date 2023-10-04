@@ -6,17 +6,12 @@ namespace EJDLV.Entidades.Personajes
 {
 	public class Jesus : IJesus
 	{
-		public void Atacar()
-		{
-			throw new NotImplementedException();
-		}
-
+	
 		public void Atacar(Entidad objetivo)
 		{
 			throw new NotImplementedException();
 		}
-
-		public void Bendecir(IEntidad entidad)
+		public void Defenderse()
 		{
 			throw new NotImplementedException();
 		}
@@ -25,12 +20,7 @@ namespace EJDLV.Entidades.Personajes
 		{
 			// Jesus se alimenta de la "Fe"
 		}
-
-		public void Defenderse()
-		{
-			throw new NotImplementedException();
-		}
-
+	
 		public string ExpresarMensaje(string mensaje)
 		{
 			throw new NotImplementedException();
@@ -60,5 +50,10 @@ namespace EJDLV.Entidades.Personajes
 		{
 			throw new NotImplementedException();
 		}
+		public void Bendecir(IEntidad entidad)
+		{
+			throw new NotImplementedException();
+		}
+
 	}
 }

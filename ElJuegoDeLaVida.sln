@@ -13,25 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Estructura y Controladores"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adaptadores de Interfaz", "Adaptadores de Interfaz", "{555FF69A-388D-4FA8-B295-8B85193BCC95}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Casos de Uso", "Casos de Uso", "{D55859D1-214E-4387-AE6F-E6D97DF9BE43}"
-	ProjectSection(SolutionItems) = preProject
-		AtacarEntidadCasoDeUso.cs = AtacarEntidadCasoDeUso.cs
-		AtacarEntidadInteractor.cs = AtacarEntidadInteractor.cs
-		CasoDeUsoInteractor.cs = CasoDeUsoInteractor.cs
-		CasoDeUsoPuertoEntrada.cs = CasoDeUsoPuertoEntrada.cs
-		CasoDeUsoPuertoSalida.cs = CasoDeUsoPuertoSalida.cs
-		ComerCasoDeUso.cs = ComerCasoDeUso.cs
-		ComerInteractor.cs = ComerInteractor.cs
-		DescansarCasoDeUso.cs = DescansarCasoDeUso.cs
-		DescansarInteractor.cs = DescansarInteractor.cs
-		InteractuarConObjetoInteractor.cs = InteractuarConObjetoInteractor.cs
-		MorirInteractor.cs = MorirInteractor.cs
-		MoverEntidadCasoDeUso.cs = MoverEntidadCasoDeUso.cs
-		MoverEntidadInteractor.cs = MoverEntidadInteractor.cs
-		PerdonarCasoDeUso.cs = PerdonarCasoDeUso.cs
-		RealizarMilagroCasoDeUso.cs = RealizarMilagroCasoDeUso.cs
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{1F34177A-04D1-4E46-88DF-C1068F9B24D7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{A203580A-E202-4B3D-9DBB-80F650A5AEE6}"
@@ -40,18 +21,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presenters", "Presenters", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Validaciones", "Validaciones\Validaciones.csproj", "{635A1365-00C2-41CD-9DBF-95EEE4D98840}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicios", "Servicios", "{202D0E1B-C911-4ACC-8476-B6A157686C66}"
-	ProjectSection(SolutionItems) = preProject
-		AtaqueServicio.cs = AtaqueServicio.cs
-		IAtaqueServicio.cs = IAtaqueServicio.cs
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EJDLV.GUI", "EJDLV.GUI\EJDLV.GUI.csproj", "{8C24CDF4-8062-4AA0-826D-428A4014C3D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{49F4043F-3FED-4749-9FF4-58DCCA5917C9}"
 	ProjectSection(SolutionItems) = preProject
 		Descripcion.txt = Descripcion.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasosDeUso", "CasosDeUso\CasosDeUso.csproj", "{0E1EA3E9-8345-489D-B402-702705F551F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicios", "Servicios\Servicios.csproj", "{61ABB6E2-D9C7-4C69-8996-54348E23FD62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,19 +50,27 @@ Global
 		{8C24CDF4-8062-4AA0-826D-428A4014C3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C24CDF4-8062-4AA0-826D-428A4014C3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C24CDF4-8062-4AA0-826D-428A4014C3D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E1EA3E9-8345-489D-B402-702705F551F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1EA3E9-8345-489D-B402-702705F551F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1EA3E9-8345-489D-B402-702705F551F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1EA3E9-8345-489D-B402-702705F551F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61ABB6E2-D9C7-4C69-8996-54348E23FD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61ABB6E2-D9C7-4C69-8996-54348E23FD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61ABB6E2-D9C7-4C69-8996-54348E23FD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61ABB6E2-D9C7-4C69-8996-54348E23FD62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DD2EF613-F653-4324-8356-70C32740DF63} = {5F6530F7-9D38-46D0-82CB-3102A514AD45}
-		{D55859D1-214E-4387-AE6F-E6D97DF9BE43} = {0D272289-09E1-4F99-95D5-876E4FC9A87A}
 		{1F34177A-04D1-4E46-88DF-C1068F9B24D7} = {555FF69A-388D-4FA8-B295-8B85193BCC95}
 		{A203580A-E202-4B3D-9DBB-80F650A5AEE6} = {555FF69A-388D-4FA8-B295-8B85193BCC95}
 		{F4D98D2B-4180-4DF5-829D-6ED3A380BE9A} = {555FF69A-388D-4FA8-B295-8B85193BCC95}
 		{635A1365-00C2-41CD-9DBF-95EEE4D98840} = {5F6530F7-9D38-46D0-82CB-3102A514AD45}
-		{202D0E1B-C911-4ACC-8476-B6A157686C66} = {0D272289-09E1-4F99-95D5-876E4FC9A87A}
 		{8C24CDF4-8062-4AA0-826D-428A4014C3D1} = {555FF69A-388D-4FA8-B295-8B85193BCC95}
+		{0E1EA3E9-8345-489D-B402-702705F551F6} = {0D272289-09E1-4F99-95D5-876E4FC9A87A}
+		{61ABB6E2-D9C7-4C69-8996-54348E23FD62} = {0D272289-09E1-4F99-95D5-876E4FC9A87A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98F458F8-375F-4ED8-A45B-1E7F8BCAE199}
