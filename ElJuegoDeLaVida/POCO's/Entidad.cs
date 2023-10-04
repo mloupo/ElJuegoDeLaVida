@@ -6,8 +6,8 @@ namespace EJDLV.Entidades.POCO_s
 	public class Entidad : IEntidad, IEntidadEspecial
 
 	{
-		public IAtaqueEstrategia EstrategiaAtaque { get; set; }
-		public Terreno TerrenoActual { get; set; }
+		public IAtaqueEstrategia? EstrategiaAtaque { get; set; }
+		public Terreno? TerrenoActual { get; set; }
 		public string? Nombre { get; init; }
 		public IReino? Reino { get; set; }
 		public IDieta? Dieta { get; set; }
@@ -19,7 +19,7 @@ namespace EJDLV.Entidades.POCO_s
 		public int IntensidadAtaque { get; set; }
 		public int IntensidadDefensa { get; set; }
 		public int Alcance { get; set; }
-		public Posicion Posicion { get; set; }
+		public Posicion? Posicion { get; set; }
 
 
 		public Entidad() { }
