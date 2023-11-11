@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Validaciones\\Validaciones.csproj",
+      "projectUniqueName": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\EDI POOADV\\ElJuegoDeLaVida\\Validaciones\\Validaciones.csproj",
       "projectName": "Validaciones",
-      "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Validaciones\\Validaciones.csproj",
+      "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\EDI POOADV\\ElJuegoDeLaVida\\Validaciones\\Validaciones.csproj",
       "packagesPath": "C:\\Users\\Zen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\ElJuegoDeLaVida\\Validaciones\\obj\\",
+      "outputPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\EDI POOADV\\ElJuegoDeLaVida\\Validaciones\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,10 +1,4 @@
-﻿using EJDLV.Entidades.POCO_s;
-using EJDLV.Entidades.POCO_s.EJDLV.Entidades.POCO_s;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using EJDLV.Entidades.POCO_s.EJDLV.Entidades.POCO_s;
 
 namespace EJDLV.Entidades.POCO_s
 {
@@ -14,6 +8,7 @@ namespace EJDLV.Entidades.POCO_s
 		public ISuperficie Superficie { get; set; }
 		public List<Terreno> TerrenosLinderos { get; set; }
 		public List<Entidad> Entidades { get; set; }
+		public List<Objeto> Objeto { get; set; }
 
 		public Terreno(string nombre, ISuperficie superficie)
 		{
@@ -26,10 +21,10 @@ namespace EJDLV.Entidades.POCO_s
 		public void AsignarEntidad(Entidad entidad)
 		{
 			Entidades.Add(entidad);
-			entidad.TerrenoActual = this;
+			entidad.TerrenoActual = this;//verificar si la entidad pude ser posicionada en ese terreno.
 		}
-	
-	internal void AgregarObjeto(Objeto objeto)
+
+		internal void AgregarObjeto(Objeto objeto)
 		{
 			throw new NotImplementedException();
 		}

@@ -1,12 +1,27 @@
-﻿using EJDLV.Entidades.Interfaces;
+﻿using EJDLV.Entidades.Interfaces.Comportamiento;
+using EJDLV.Entidades.Interfaces.MedioAmbiente;
 using EJDLV.Entidades.POCO_s.EJDLV.Entidades.POCO_s;
+using EJDLV.Entidades.POCO_s.EstrategiasAtaque;
+using EJDLV.Entidades.POCO_s.EstrategiasDefensa;
 
 namespace EJDLV.Entidades.POCO_s
 {
 	public class Entidad : IEntidad, IEntidadEspecial
-
 	{
-		public IAtaqueEstrategia? EstrategiaAtaque { get; set; }
+		private IAtaqueEstrategia? _estrategiaAtaque;
+		public IAtaqueEstrategia? EstrategiaAtaque
+		{
+			get { return _estrategiaAtaque ??= new AtaqueNormal(); }
+			set { _estrategiaAtaque = value; }
+		}
+
+		private IDefensaEstrategia? _estrategiaDefensa;
+		public IDefensaEstrategia? EstrategiaDefensa
+		{
+			get { return _estrategiaDefensa ??= new DefensaNormal(); }
+			set { _estrategiaDefensa = value; }
+		}
+
 		public Terreno? TerrenoActual { get; set; }
 		public string? Nombre { get; init; }
 		public IReino? Reino { get; set; }
@@ -81,21 +96,30 @@ namespace EJDLV.Entidades.POCO_s
 			throw new NotImplementedException();
 		}
 
+		public void SeleccionarAtaque(IAtaqueEstrategia estrategia)
+		{
+			throw new NotImplementedException();
+		}
 
-		public void Atacar(Entidad objetivo)
+		public void RealizarAtaque(Entidad objetivo)
 		{
 			EstrategiaAtaque.RealizarAtaque(this, objetivo);
 		}
 
-
-		public void Defenderse()
+		public void SeleccionarDefensa(IDefensaEstrategia estrategia)
 		{
 			throw new NotImplementedException();
+		}
+
+		public void RealizarDefensa()
+		{
+			EstrategiaDefensa.RealizarDefensa();
 		}
 
 		public void RealizarAccionEspecial()
 		{
 			throw new NotImplementedException();
 		}
+
 	}
 }

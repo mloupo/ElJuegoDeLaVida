@@ -1,10 +1,4 @@
-﻿using EJDLV.Entidades.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using EJDLV.Entidades.Interfaces.Comportamiento;
 namespace EJDLV.Entidades.POCO_s.EstrategiasAtaque
 {
 	public class AtaqueNormal : IAtaqueEstrategia

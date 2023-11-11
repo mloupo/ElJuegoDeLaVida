@@ -1,8 +1,8 @@
-﻿using EJDLV.Entidades.Interfaces;
+﻿using EJDLV.Entidades.Interfaces.Comportamiento;
 
 namespace ElJuegoDeLaVida
 {
-	public abstract class Dieta : IDieta
+    public abstract class Dieta : IDieta
 	{
 		public void Comer()
 		{

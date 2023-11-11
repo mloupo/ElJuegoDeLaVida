@@ -1,9 +1,10 @@
-﻿using EJDLV.Entidades.Interfaces;
+﻿using EJDLV.Entidades.Interfaces.Comportamiento;
+using EJDLV.Entidades.Interfaces.Entidades;
 using EJDLV.Entidades.POCO_s;
 
 namespace EJDLV.Entidades.PersonajesEspeciales
 {
-	public class Lucifer : ILucifer
+    public class Lucifer : ILucifer
 	{
 		public void Comer()
 		{

@@ -1,4 +1,4 @@
-﻿using EJDLV.Entidades.Interfaces;
+﻿using EJDLV.Entidades.Interfaces.Comportamiento;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EJDLV.Entidades.POCO_s.EstrategiasAtaque
 {
-	public class AtaqueEspecial : IAtaqueEstrategia
+    public class AtaqueEspecial : IAtaqueEstrategia
 	{
 		public void RealizarAtaque(Entidad atacante, Entidad objetivo)
 		{

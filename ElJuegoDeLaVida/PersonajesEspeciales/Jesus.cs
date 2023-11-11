@@ -1,11 +1,14 @@
-﻿using EJDLV.Entidades.Interfaces;
+﻿using EJDLV.Entidades.Interfaces.Comportamiento;
+using EJDLV.Entidades.Interfaces.Entidades;
 using EJDLV.Entidades.POCO_s;
 using System;
 
 namespace EJDLV.Entidades.PersonajesEspeciales
 {
-	public class Jesus : IJesus
+    public class Jesus : IJesus
 	{
+
+		// IMplementar logica de ataque especifica a Jesús
 
 		public void Atacar(Entidad objetivo)
 		{
@@ -18,7 +21,7 @@ namespace EJDLV.Entidades.PersonajesEspeciales
 
 		public void Comer()
 		{
-			// Jesus se alimenta de la "Fe"
+			// Jesús se alimenta de la "Fe"
 		}
 
 		public string ExpresarMensaje(string mensaje)
@@ -59,5 +62,7 @@ namespace EJDLV.Entidades.PersonajesEspeciales
 		{
 			throw new NotImplementedException();
 		}
+
+
 	}
 }

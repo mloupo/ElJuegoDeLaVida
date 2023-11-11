@@ -1,6 +1,4 @@
 ﻿using EJDLV.Entidades.POCO_s.EJDLV.Entidades.POCO_s;
-using System;
-using System.Collections.Generic;
 
 namespace EJDLV.Entidades.POCO_s
 {
@@ -27,12 +25,7 @@ namespace EJDLV.Entidades.POCO_s
 				// Agregar terrenos a la lista
 				new Terreno("Terreno1", new Terrestre()),
 				new Terreno("Terreno2", new Acuatica())
-				// add more "Terrenos" here
-
-
-
 			};
-
 			return terrenos;
 		}
 
@@ -40,9 +33,9 @@ namespace EJDLV.Entidades.POCO_s
 		{
 			foreach (Terreno terreno in Terrenos)
 			{
-				// Aquí la lógica para asignar entidades a los terrenos
-				// Ejemplo de asignar una entidad de prueba
-				Entidad entidad = new ();
+				// Aca va la lógica para asignar entidades a los terrenos
+				// Ejemplo asignar una entidad de prueba
+				Entidad entidad = new();
 				terreno.AsignarEntidad(entidad);
 			}
 		}

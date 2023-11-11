@@ -1,9 +1,4 @@
-﻿using EJDLV.Entidades.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using EJDLV.Entidades.Interfaces.MedioAmbiente;
 
 namespace EJDLV.Entidades.POCO_s
 {
@@ -11,7 +6,7 @@ namespace EJDLV.Entidades.POCO_s
 	{
 		public string ObtenerNombreReino()
 		{
-			throw new NotImplementedException();
+			return this.GetType().Name;
 		}
 	}
 
@@ -29,7 +24,7 @@ namespace EJDLV.Entidades.POCO_s
 	{
 
 	}
-	
+
 	public class Humano : Animal
 	{
 
@@ -44,7 +39,7 @@ namespace EJDLV.Entidades.POCO_s
 	{
 
 	}
-	
+
 	public class DeLasMaquinas
 	{
 
