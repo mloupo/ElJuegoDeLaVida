@@ -1,6 +1,5 @@
 ﻿using EJDLV.Entidades.Interfaces.Comportamiento;
 using EJDLV.Entidades.Interfaces.MedioAmbiente;
-using EJDLV.Entidades.POCO_s.EJDLV.Entidades.POCO_s;
 using EJDLV.Entidades.POCO_s.EstrategiasAtaque;
 using EJDLV.Entidades.POCO_s.EstrategiasDefensa;
 

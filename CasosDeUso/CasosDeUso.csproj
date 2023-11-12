@@ -9,6 +9,7 @@
 	<ItemGroup>
 		<ProjectReference Include="..\ElJuegoDeLaVida\EJDLV.Entidades.csproj" />
 		<ProjectReference Include="..\Servicios\Servicios.csproj" />
+		<ProjectReference Include="..\Validaciones\Validaciones.csproj" />
 	</ItemGroup>
 
 </Project>

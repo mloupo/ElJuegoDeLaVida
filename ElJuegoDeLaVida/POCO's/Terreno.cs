@@ -1,4 +1,4 @@
-﻿using EJDLV.Entidades.POCO_s.EJDLV.Entidades.POCO_s;
+﻿using EJDLV.Entidades.Interfaces.Comportamiento;
 
 namespace EJDLV.Entidades.POCO_s
 {
@@ -9,6 +9,7 @@ namespace EJDLV.Entidades.POCO_s
 		public List<Terreno> TerrenosLinderos { get; set; }
 		public List<Entidad> Entidades { get; set; }
 		public List<Objeto> Objeto { get; set; }
+		public Entidad Entidad { get; set; }
 
 		public Terreno(string nombre, ISuperficie superficie)
 		{

@@ -1,11 +1,10 @@
-﻿using EJDLV.Entidades.POCO_s.EJDLV.Entidades.POCO_s;
-namespace EJDLV.Entidades.POCO_s
+﻿namespace EJDLV.Entidades.POCO_s
 {
-	public class TableroCosmico
+	public class MapaCosmico
 	{
 		private Terreno[,] terrenos;
 
-		public TableroCosmico(int tamano)
+		public MapaCosmico(int tamano)
 		{
 			terrenos = new Terreno[tamano, tamano];
 			// Inicializar el tablero, asignar superficies, etc.
@@ -30,5 +29,9 @@ namespace EJDLV.Entidades.POCO_s
 
 
 		// Otras funciones relacionadas con el tablero
+		public void Iniciar()
+		{
+			// Lógica de inicio del juego para el tablero
+		}
 	}
 }

@@ -1,0 +1,11 @@
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\PedazosDeJuego\bin\Debug\net7.0\PedazosDeJuego.deps.json
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\PedazosDeJuego\bin\Debug\net7.0\PedazosDeJuego.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\PedazosDeJuego\bin\Debug\net7.0\PedazosDeJuego.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\PedazosDeJuego\obj\Debug\net7.0\PedazosDeJuego.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\PedazosDeJuego\obj\Debug\net7.0\PedazosDeJuego.AssemblyInfoInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\PedazosDeJuego\obj\Debug\net7.0\PedazosDeJuego.AssemblyInfo.cs
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\PedazosDeJuego\obj\Debug\net7.0\PedazosDeJuego.csproj.CoreCompileInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\PedazosDeJuego\obj\Debug\net7.0\PedazosDeJuego.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\PedazosDeJuego\obj\Debug\net7.0\refint\PedazosDeJuego.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\PedazosDeJuego\obj\Debug\net7.0\PedazosDeJuego.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\PedazosDeJuego\obj\Debug\net7.0\ref\PedazosDeJuego.dll

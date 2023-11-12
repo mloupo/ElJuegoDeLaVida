@@ -1,5 +1,6 @@
-﻿namespace PedazosDeJuego
+﻿namespace EJDLV.Entidades.POCO_s
 {
+
 	public class Juego
 	{
 		private MapaCosmico tablero;
@@ -21,4 +22,5 @@
 			// Puede implicar movimientos, interacciones, eventos cósmicos, etc.
 		}
 	}
+
 }

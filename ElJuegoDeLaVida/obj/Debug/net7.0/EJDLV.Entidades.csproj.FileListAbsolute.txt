@@ -10,3 +10,7 @@ C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\E
 C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\ElJuegoDeLaVida\obj\Debug\net7.0\refint\EJDLV.Entidades.dll
 C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\ElJuegoDeLaVida\obj\Debug\net7.0\EJDLV.Entidades.pdb
 C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\ElJuegoDeLaVida\obj\Debug\net7.0\ref\EJDLV.Entidades.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\ElJuegoDeLaVida\obj\Debug\net7.0\EJDLV.Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\ElJuegoDeLaVida\obj\Debug\net7.0\EJDLV.Entidades.AssemblyInfoInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\ElJuegoDeLaVida\obj\Debug\net7.0\EJDLV.Entidades.AssemblyInfo.cs
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\ElJuegoDeLaVida\obj\Debug\net7.0\EJDLV.Entidades.csproj.CoreCompileInputs.cache

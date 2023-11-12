@@ -1,4 +1,4 @@
-﻿using EJDLV.Entidades.POCO_s.EJDLV.Entidades.POCO_s;
+﻿using EJDLV.Entidades.POCO_s.Superficies;
 
 namespace EJDLV.Entidades.POCO_s
 {

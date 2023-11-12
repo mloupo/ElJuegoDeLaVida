@@ -1,4 +1,6 @@
-﻿namespace EJDLV.Entidades.PersonajesEspeciales
+﻿using EJDLV.Entidades.POCO_s;
+
+namespace EJDLV.Entidades.PersonajesEspeciales
 {
 	public static class DirectorDeLaOrquesta
 	{
@@ -21,7 +23,7 @@
 
 		private static MapaCosmico CrearMapa()
 		{
-			return new MapaCosmico();
+			return new MapaCosmico(10);
 		}
 
 		private static void CrearEntidades() { /* Lógica para crear entidades */ }

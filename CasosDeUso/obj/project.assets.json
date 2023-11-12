@@ -24,6 +24,16 @@
         "runtime": {
           "bin/placeholder/Servicios.dll": {}
         }
+      },
+      "Validaciones/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Validaciones.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Validaciones.dll": {}
+        }
       }
     }
   },
@@ -37,12 +47,18 @@
       "type": "project",
       "path": "../Servicios/Servicios.csproj",
       "msbuildProject": "../Servicios/Servicios.csproj"
+    },
+    "Validaciones/1.0.0": {
+      "type": "project",
+      "path": "../Validaciones/Validaciones.csproj",
+      "msbuildProject": "../Validaciones/Validaciones.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "EJDLV.Entidades >= 1.0.0",
-      "Servicios >= 1.0.0"
+      "Servicios >= 1.0.0",
+      "Validaciones >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -77,6 +93,9 @@
             },
             "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\EDI POOADV\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj": {
               "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\EDI POOADV\\ElJuegoDeLaVida\\Servicios\\Servicios.csproj"
+            },
+            "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\EDI POOADV\\ElJuegoDeLaVida\\Validaciones\\Validaciones.csproj": {
+              "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\EDI POOADV\\ElJuegoDeLaVida\\Validaciones\\Validaciones.csproj"
             }
           }
         }

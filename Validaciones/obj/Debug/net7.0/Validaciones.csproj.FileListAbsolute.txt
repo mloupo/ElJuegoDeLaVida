@@ -10,3 +10,14 @@ C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\V
 C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\Validaciones\obj\Debug\net7.0\refint\Validaciones.dll
 C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\Validaciones\obj\Debug\net7.0\Validaciones.pdb
 C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\ElJuegoDeLaVida\Validaciones\obj\Debug\net7.0\ref\Validaciones.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\Validaciones\bin\Debug\net7.0\Validaciones.deps.json
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\Validaciones\bin\Debug\net7.0\Validaciones.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\Validaciones\bin\Debug\net7.0\Validaciones.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\Validaciones\obj\Debug\net7.0\Validaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\Validaciones\obj\Debug\net7.0\Validaciones.AssemblyInfoInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\Validaciones\obj\Debug\net7.0\Validaciones.AssemblyInfo.cs
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\Validaciones\obj\Debug\net7.0\Validaciones.csproj.CoreCompileInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\Validaciones\obj\Debug\net7.0\Validaciones.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\Validaciones\obj\Debug\net7.0\refint\Validaciones.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\Validaciones\obj\Debug\net7.0\Validaciones.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\ElJuegoDeLaVida\Validaciones\obj\Debug\net7.0\ref\Validaciones.dll
