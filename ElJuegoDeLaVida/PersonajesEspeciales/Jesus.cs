@@ -1,18 +1,15 @@
 ﻿using EJDLV.Entidades.Interfaces.Comportamiento;
 using EJDLV.Entidades.Interfaces.Entidades;
 using EJDLV.Entidades.POCO_s;
-using System;
 
 namespace EJDLV.Entidades.PersonajesEspeciales
 {
-    public class Jesus : IJesus
+	public class Jesus : IJesus
 	{
-
-		// IMplementar logica de ataque especifica a Jesús
-
+		// Implementar logica de ataque especifica a Jesús
 		public void Atacar(Entidad objetivo)
 		{
-			throw new NotImplementedException();
+			// Logica de ataque especifica a Jesús
 		}
 		public void Defenderse()
 		{

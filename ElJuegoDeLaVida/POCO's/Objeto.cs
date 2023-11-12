@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EJDLV.Entidades.POCO_s
+﻿namespace EJDLV.Entidades.POCO_s
 {
 	public abstract class Objeto : IObjeto
 	{
@@ -25,5 +19,7 @@ namespace EJDLV.Entidades.POCO_s
 		{
 			throw new NotImplementedException();
 		}
+
+		// objeto podria 
 	}
 }
