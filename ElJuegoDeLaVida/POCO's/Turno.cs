@@ -1,17 +1,19 @@
-﻿namespace EJDLV.Entidades.POCO_s
+﻿using EJDLV.Entidades.Interfaces.Comportamiento;
+
+namespace EJDLV.Entidades.POCO_s
 {
 	public class Turno
 	{
-		private readonly List<Jugador> jugadores;
+		private readonly List<IJugador> jugadores;
 		private int indiceJugadorActual;
 
-		public Turno(List<Jugador> jugadores)
+		public Turno(List<IJugador> jugadores)
 		{
 			this.jugadores = jugadores ?? throw new ArgumentNullException(nameof(jugadores));
 			indiceJugadorActual = 0;
 		}
 
-		public Jugador JugadorActual => jugadores[indiceJugadorActual];
+		public IJugador JugadorActual => jugadores[indiceJugadorActual];
 
 		public void AvanzarTurno()
 		{

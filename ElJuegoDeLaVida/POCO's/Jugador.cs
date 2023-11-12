@@ -2,28 +2,40 @@
 
 namespace EJDLV.Entidades.POCO_s
 {
-	// En la clase Jugador
 	public class Jugador : IJugador
 	{
 		public string Nombre { get; private set; }
 		public int Puntos { get; set; }
 
+		// Lista de acciones disponibles para el jugador
+		private List<IAccionJugador> acciones;
+
+		// Constructor para inicializar el jugador con un nombre
 		public Jugador(string nombre)
 		{
 			Nombre = nombre;
 			Puntos = 0;
+			acciones = new List<IAccionJugador>();
 		}
 
+		// Método para realizar acciones del jugador
 		public void RealizarAcciones()
 		{
-			// Implementa las acciones específicas del jugador
+			foreach (var accion in acciones)
+			{
+				accion.Ejecutar(this);
+			}
+		}
+
+		// Método para agregar nuevas acciones al jugador
+		public void AgregarAccion(IAccionJugador nuevaAccion)
+		{
+			acciones.Add(nuevaAccion);
 		}
 
 		public bool EsControladoPorIA()
 		{
-			// Implementa la lógica para determinar si el jugador es controlado por la IA
-			// Puede depender de alguna propiedad específica del jugador.
-			return false; // Por ahora, asumimos que no es controlado por la IA.
+			throw new NotImplementedException();
 		}
 	}
 }
