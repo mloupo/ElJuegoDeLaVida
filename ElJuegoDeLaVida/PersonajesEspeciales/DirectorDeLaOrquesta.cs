@@ -2,52 +2,44 @@
 {
 	public static class DirectorDeLaOrquesta
 	{
-		public static int TirarLosDados()
-		{
-			Random rnd = new();
-			return rnd.Next(1, 7);
-		}
+		private static readonly Random rnd = new Random();
+		private static MapaCosmico mapaCosmico;
+
+		public static int TirarLosDados() => rnd.Next(1, 7);
 
 		public static void IniciarJuego()
 		{
-			CrearMapa();
+			mapaCosmico = CrearMapa();
 			CrearEntidades();
 			CrearTerrenos();
+			CrearObjetos();
+			RepartirEntidades();
+			RepartirTerrenos();
+			RepartirObjetos();
+			IniciarTableroCosmico();
 		}
 
-		private static void CrearMapa()
+		private static MapaCosmico CrearMapa()
 		{
-			// Lógica para crear el mapa
+			return new MapaCosmico();
 		}
 
-		private static void CrearEntidades()
+		private static void CrearEntidades() { /* Lógica para crear entidades */ }
+
+		private static void CrearTerrenos() { /* Lógica para crear terrenos */ }
+
+		private static void CrearObjetos() { /* Lógica para crear objetos */ }
+
+		private static void IniciarTableroCosmico()
 		{
-			// Lógica para crear las entidades
+			mapaCosmico?.Iniciar();
 		}
 
-		public static void CrearTerrenos()
-		{
-			// Lógica para crear los terrenos
-		}
+		private static void RepartirEntidades() { /* Lógica para repartir entidades */ }
 
-		public static void CrearObjetos()
-		{
-			// Lógica para crear los objetos
-		}
+		private static void RepartirTerrenos() { /* Lógica para repartir terrenos */ }
 
-		public static void RepartirEntidades()
-		{
-			// Lógica para repartir entidades
-		}
-
-		public static void RepartirTerrenos()
-		{
-			// Lógica para repartir terrenos
-		}
-
-		public static void RepartirObjetos()
-		{
-			// Lógica para repartir objetos
-		}
+		private static void RepartirObjetos() { /* Lógica para repartir objetos */ }
 	}
+
 }

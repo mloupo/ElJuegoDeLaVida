@@ -2,11 +2,11 @@
 {
 	public class Juego
 	{
-		private TableroCosmico tablero;
+		private MapaCosmico tablero;
 
 		public Juego(int tamanoTablero)
 		{
-			tablero = new TableroCosmico(tamanoTablero);
+			tablero = new MapaCosmico(tamanoTablero);
 		}
 
 		public void Iniciar()

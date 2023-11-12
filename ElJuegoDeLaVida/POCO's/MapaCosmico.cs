@@ -1,4 +1,5 @@
-﻿namespace PedazosDeJuego
+﻿using EJDLV.Entidades.POCO_s.EJDLV.Entidades.POCO_s;
+namespace EJDLV.Entidades.POCO_s
 {
 	public class TableroCosmico
 	{
