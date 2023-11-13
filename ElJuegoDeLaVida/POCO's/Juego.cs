@@ -1,14 +1,18 @@
-﻿namespace EJDLV.Entidades.POCO_s
+﻿using EJDLV.Entidades.Interfaces.Comportamiento;
+
+namespace EJDLV.Entidades.POCO_s
 {
 	public class Juego
 	{
 		private Mapa mapa;
 		private List<Jugador> jugadores;
+		private Turno turnoActual;
 
 		public Juego(int tamanoTablero)
 		{
 			mapa = new Mapa(tamanoTablero);
 			jugadores = new List<Jugador>();
+			turnoActual = new Turno(jugadores.Cast<IJugador>().ToList());
 		}
 
 		public void Iniciar()
@@ -19,7 +23,16 @@
 			RepartirEntidades();
 			RepartirTerrenos();
 			RepartirObjetos();
+			IniciarRonda();
 		}
+
+		public void GestionarTurno(Jugador jugador)
+		{
+			turnoActual.RealizarAcciones();
+			ActualizarPuntuaciones();
+			AvanzarTurno();
+		}
+
 		private void CrearEntidades() { /* Lógica para crear entidades */ }
 
 		private void CrearTerrenos() { /* Lógica para crear terrenos */ }
@@ -32,12 +45,7 @@
 
 		private void RepartirObjetos() { /* Lógica para repartir objetos */ }
 
-		public void GestionarTurno(Jugador jugador)
-		{
-			// Lógica para gestionar el turno de un jugador.
-			jugador.RealizarAcciones();
-			ActualizarPuntuaciones();
-		}
+
 
 		public void RealizarInteraccion(Jugador jugador1, Jugador jugador2)
 		{
@@ -73,8 +81,9 @@
 
 		public void AvanzarTurno()
 		{
-			// Lógica para avanzar al siguiente turno.
-			// Cambiar el jugador actual y gestionar su turno.
+			turnoActual.AvanzarTurno();
+			// Realizar otras acciones necesarias al avanzar el turno, si las hay.
+
 		}
 	}
 }

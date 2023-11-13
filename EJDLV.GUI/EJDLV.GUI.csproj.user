@@ -4,6 +4,12 @@
     <Compile Update="ConfiguracionPartida.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="EntidadInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="JugadorInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="PantallaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
