@@ -23,7 +23,7 @@ namespace EJDLV.Entidades.POCO_s
 		public void AsignarEntidad(Entidad entidad)
 		{
 			Entidades.Add(entidad);
-			entidad.TerrenoActual = this;//verificar si la entidad pude ser posicionada en ese terreno.
+			entidad.TerrenoActual = this; //verificar si la entidad pude ser posicionada en ese terreno.
 		}
 
 
@@ -32,6 +32,7 @@ namespace EJDLV.Entidades.POCO_s
 			Objetos.Add(objeto);
 			objeto.TerrenoActual = this;
 		}
+
 		// Otras propiedades del terreno, si las hay
 	}
 }

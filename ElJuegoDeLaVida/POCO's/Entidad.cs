@@ -35,31 +35,28 @@ namespace EJDLV.Entidades.POCO_s
 		public int Alcance { get; set; }
 		public Posicion? Posicion { get; set; }
 
-
 		public Entidad() { }
 
 		public Entidad(
-					string? nombre,
-					IReino? reino,
-					IDieta? dieta,
-					IMedioAmbiente? medioAmbiente,
-					int energiaMaxima,
-					int energiaActual,
-					int vidaMaxima,
-					int vidaActual,
-					int intensidadAtaque,
-					int intensidadDefensa,
-					int alcance
-					)
+			string? nombre,
+			IReino? reino,
+			IDieta? dieta,
+			IMedioAmbiente? medioAmbiente,
+			int energiaMaxima,
+			int vidaMaxima,
+			int intensidadAtaque,
+			int intensidadDefensa,
+			int alcance
+		)
 		{
 			Nombre = nombre;
 			Reino = reino;
 			Dieta = dieta;
 			MedioAmbiente = medioAmbiente;
 			EnergiaMaxima = energiaMaxima;
-			EnergiaActual = energiaActual;
+			EnergiaActual = energiaMaxima; // Asumo que la energía inicial es la máxima al crear la entidad
 			VidaMaxima = vidaMaxima;
-			VidaActual = vidaActual;
+			VidaActual = vidaMaxima; // Asumo que la vida inicial es la máxima al crear la entidad
 			IntensidadAtaque = intensidadAtaque;
 			IntensidadDefensa = intensidadDefensa;
 			Alcance = alcance;
@@ -68,7 +65,7 @@ namespace EJDLV.Entidades.POCO_s
 		public void CrearEntidad(Mapa mapa, string nombre, IReino reino, IDieta dieta, IMedioAmbiente medioAmbiente, int energiaMaxima, int vidaMaxima, int intensidadAtaque, int intensidadDefensa, int alcance)
 		{
 			// Lógica para crear una nueva entidad y colocarla en el mapa
-			var nuevaEntidad = new Entidad(nombre, reino, dieta, medioAmbiente, energiaMaxima, energiaMaxima, vidaMaxima, vidaMaxima, intensidadAtaque, intensidadDefensa, alcance);
+			var nuevaEntidad = new Entidad(nombre, reino, dieta, medioAmbiente, energiaMaxima, vidaMaxima, intensidadAtaque, intensidadDefensa, alcance);
 			mapa.AgregarEntidadEnPosicion(this.Posicion, nuevaEntidad);
 		}
 
@@ -79,13 +76,13 @@ namespace EJDLV.Entidades.POCO_s
 		}
 
 		public void ActualizarInformacion(
-							string nuevoNombre,
-							int nuevaEnergiaMaxima,
-							int nuevaVidaMaxima,
-							int nuevaIntensidadAtaque,
-							int nuevaIntensidadDefensa,
-							int nuevoAlcance
-							)
+			string nuevoNombre,
+			int nuevaEnergiaMaxima,
+			int nuevaVidaMaxima,
+			int nuevaIntensidadAtaque,
+			int nuevaIntensidadDefensa,
+			int nuevoAlcance
+		)
 		{
 			// Actualizar la información de la entidad con nuevos valores
 			Nombre = nuevoNombre;
@@ -101,10 +98,8 @@ namespace EJDLV.Entidades.POCO_s
 			// Eliminar la entidad del mapa
 			mapa.EliminarEntidadEnPosicion(this.Posicion);
 		}
-		public void Comer()
-		{
-			throw new NotImplementedException();
-		}
+
+		// Implementación de los métodos de las interfaces IEntidad y IEntidadEspecial
 
 		public void Descansar()
 		{
@@ -112,6 +107,26 @@ namespace EJDLV.Entidades.POCO_s
 		}
 
 		public void Morir()
+		{
+			throw new NotImplementedException();
+		}
+
+		public void SeleccionarAtaque(IAtaqueEstrategia estrategia)
+		{
+			throw new NotImplementedException();
+		}
+
+		public void SeleccionarDefensa(IDefensaEstrategia estrategia)
+		{
+			throw new NotImplementedException();
+		}
+
+		public void RealizarAtaque(Entidad objetivo)
+		{
+			throw new NotImplementedException();
+		}
+
+		public void RealizarDefensa()
 		{
 			throw new NotImplementedException();
 		}
@@ -131,30 +146,14 @@ namespace EJDLV.Entidades.POCO_s
 			throw new NotImplementedException();
 		}
 
-		public void SeleccionarAtaque(IAtaqueEstrategia estrategia)
+		public void Comer()
 		{
 			throw new NotImplementedException();
-		}
-
-		public void RealizarAtaque(Entidad objetivo)
-		{
-			EstrategiaAtaque.RealizarAtaque(this, objetivo);
-		}
-
-		public void SeleccionarDefensa(IDefensaEstrategia estrategia)
-		{
-			throw new NotImplementedException();
-		}
-
-		public void RealizarDefensa()
-		{
-			EstrategiaDefensa.RealizarDefensa();
 		}
 
 		public void RealizarAccionEspecial()
 		{
 			throw new NotImplementedException();
 		}
-
 	}
 }
