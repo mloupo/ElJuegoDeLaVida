@@ -4,41 +4,54 @@ namespace EJDLV.Entidades.POCO_s
 {
 	public class Mapa
 	{
-		public List<Terreno>? Terrenos { get; set; }
+		private List<Terreno> terrenos;
 
-		public void InicializarMapa()
+		public Mapa(int tamano)
 		{
-			List<Terreno> terrenos = ObtenerListaTerrenos();
+			terrenos = new List<Terreno>();
+			InicializarMapa(tamano);
+		}
 
-			if (terrenos.Count > 0)
+		private void InicializarMapa(int tamano)
+		{
+			for (int i = 0; i < tamano; i++)
 			{
-				Terrenos = terrenos;
-				DistribuirEntidades();
-				// Otros procesos de inicialización si los hay
+				for (int j = 0; j < tamano; j++)
+				{
+					var terreno = new Terreno($"Terreno_{i}_{j}", new Terrestre());
+					terrenos.Add(terreno);
+				}
 			}
+			// Resto de la lógica de inicialización si es necesario
 		}
 
-		private static List<Terreno> ObtenerListaTerrenos()
+		public void AgregarEntidad(Entidad entidad, Posicion posicion)
 		{
-			List<Terreno> terrenos = new()
-			{
-				// Agregar terrenos a la lista
-				new Terreno("Terreno1", new Terrestre()),
-				new Terreno("Terreno2", new Acuatica())
-			};
-			return terrenos;
+			// Lógica para agregar una entidad al tablero en una posición específica
+			var terreno = ObtenerTerrenoEnPosicion(posicion);
+			terreno?.AsignarEntidad(entidad);
 		}
 
-		private void DistribuirEntidades()
+		public void AgregarObjeto(Objeto objeto, Posicion posicion)
 		{
-			foreach (Terreno terreno in Terrenos)
+			// Lógica para agregar un objeto al tablero en una posición específica
+			var terreno = ObtenerTerrenoEnPosicion(posicion);
+			terreno?.AsignarObjeto(objeto);
+		}
+
+		private Terreno? ObtenerTerrenoEnPosicion(Posicion posicion)
+		{
+			// Lógica para obtener el terreno en una posición específica
+			// (puedes adaptarla según la estructura de tu mapa)
+			var index = posicion.X + posicion.Y * Math.Sqrt(terrenos.Count);
+			if (index >= 0 && index < terrenos.Count)
 			{
-				// Aca va la lógica para asignar entidades a los terrenos
-				// Ejemplo asignar una entidad de prueba
-				Entidad entidad = new();
-				terreno.AsignarEntidad(entidad);
+				return terrenos[(int)index];
 			}
+			return null;
 		}
+
+		// Otras funciones relacionadas con el tablero
 	}
 }
 

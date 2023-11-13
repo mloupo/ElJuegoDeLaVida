@@ -1,25 +1,12 @@
-﻿namespace EJDLV.Entidades.POCO_s
+﻿using EJDLV.Entidades.Interfaces.Comportamiento;
+
+namespace EJDLV.Entidades.POCO_s
 {
 	public abstract class Objeto : IObjeto
 	{
-		public void interactuar()
-		{
-			throw new NotImplementedException();
-		}
-	}
+		public string Nombre { get; set; }
+		public Terreno? TerrenoActual { get; set; }
+		public abstract void Interactuar();
 
-	public interface IObjeto
-	{
-		public void interactuar();
-	}
-
-	public class PalabraDeDios : IObjeto
-	{
-		public void interactuar()
-		{
-			throw new NotImplementedException();
-		}
-
-		// objeto podria 
 	}
 }

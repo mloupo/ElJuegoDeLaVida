@@ -2,8 +2,6 @@
 {
 	public interface IJugador
 	{
-
-		void RealizarAcciones();
 		bool EsControladoPorIA();
 	}
 }

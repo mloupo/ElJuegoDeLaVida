@@ -22,7 +22,7 @@ namespace EJDLV.Entidades.POCO_s
 		}
 
 		public Terreno? TerrenoActual { get; set; }
-		public string? Nombre { get; init; }
+		public string? Nombre { get; set; }
 		public IReino? Reino { get; set; }
 		public IDieta? Dieta { get; set; }
 		public IMedioAmbiente? MedioAmbiente { get; set; }
@@ -65,6 +65,42 @@ namespace EJDLV.Entidades.POCO_s
 			Alcance = alcance;
 		}
 
+		public void CrearEntidad(Mapa mapa, string nombre, IReino reino, IDieta dieta, IMedioAmbiente medioAmbiente, int energiaMaxima, int vidaMaxima, int intensidadAtaque, int intensidadDefensa, int alcance)
+		{
+			// Lógica para crear una nueva entidad y colocarla en el mapa
+			var nuevaEntidad = new Entidad(nombre, reino, dieta, medioAmbiente, energiaMaxima, energiaMaxima, vidaMaxima, vidaMaxima, intensidadAtaque, intensidadDefensa, alcance);
+			mapa.AgregarEntidadEnPosicion(this.Posicion, nuevaEntidad);
+		}
+
+		public string ObtenerInformacion()
+		{
+			// Devolver información relevante de la entidad (nombre, posición, estado actual, etc.)
+			return $"Entidad: {Nombre}, Posición: {Posicion}, Energía: {EnergiaActual}/{EnergiaMaxima}, Vida: {VidaActual}/{VidaMaxima}";
+		}
+
+		public void ActualizarInformacion(
+							string nuevoNombre,
+							int nuevaEnergiaMaxima,
+							int nuevaVidaMaxima,
+							int nuevaIntensidadAtaque,
+							int nuevaIntensidadDefensa,
+							int nuevoAlcance
+							)
+		{
+			// Actualizar la información de la entidad con nuevos valores
+			Nombre = nuevoNombre;
+			EnergiaMaxima = nuevaEnergiaMaxima;
+			VidaMaxima = nuevaVidaMaxima;
+			IntensidadAtaque = nuevaIntensidadAtaque;
+			IntensidadDefensa = nuevaIntensidadDefensa;
+			Alcance = nuevoAlcance;
+		}
+
+		public void EliminarEntidad(Mapa mapa)
+		{
+			// Eliminar la entidad del mapa
+			mapa.EliminarEntidadEnPosicion(this.Posicion);
+		}
 		public void Comer()
 		{
 			throw new NotImplementedException();

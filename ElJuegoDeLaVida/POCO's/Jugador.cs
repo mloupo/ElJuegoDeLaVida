@@ -68,7 +68,12 @@ namespace EJDLV.Entidades.POCO_s
 		{
 			// Lógica para que una entidad coma
 			// Puedes implementar esto según tus necesidades
-			Console.WriteLine($"{Nombre} está comiendo {comida.Nombre} con {entidad.Nombre}");
+			Console.WriteLine($"{Nombre} está comiendo {comida.GetType().Name} con {entidad.Nombre}");
+		}
+
+		public void Interactuar(Entidad entidad, IInteractuable interactuable)
+		{
+			throw new NotImplementedException();
 		}
 	}
 }

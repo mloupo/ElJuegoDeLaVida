@@ -2,20 +2,35 @@
 {
 	public class Juego
 	{
-		private MapaCosmico tablero;
+		private Mapa mapa;
 		private List<Jugador> jugadores;
 
 		public Juego(int tamanoTablero)
 		{
-			tablero = new MapaCosmico(tamanoTablero);
+			mapa = new Mapa(tamanoTablero);
 			jugadores = new List<Jugador>();
 		}
 
 		public void Iniciar()
 		{
-			// Lógica de inicio del juego
-			// Podemos establecer las entidades iniciales, configuraciones, etc.
+			CrearEntidades();
+			CrearTerrenos();
+			CrearObjetos();
+			RepartirEntidades();
+			RepartirTerrenos();
+			RepartirObjetos();
 		}
+		private void CrearEntidades() { /* Lógica para crear entidades */ }
+
+		private void CrearTerrenos() { /* Lógica para crear terrenos */ }
+
+		private void CrearObjetos() { /* Lógica para crear objetos */ }
+
+		private void RepartirEntidades() { /* Lógica para repartir entidades */ }
+
+		private void RepartirTerrenos() { /* Lógica para repartir terrenos */ }
+
+		private void RepartirObjetos() { /* Lógica para repartir objetos */ }
 
 		public void GestionarTurno(Jugador jugador)
 		{
