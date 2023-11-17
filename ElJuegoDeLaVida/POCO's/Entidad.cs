@@ -5,7 +5,7 @@ using EJDLV.Entidades.POCO_s.EstrategiasDefensa;
 
 namespace EJDLV.Entidades.POCO_s
 {
-	public class Entidad : IEntidad, IEntidadEspecial
+	public class Entidad : IEntidad, IEntidadEspecial, IDieta, IMedioAmbiente
 	{
 		private IAtaqueEstrategia? _estrategiaAtaque;
 		public IAtaqueEstrategia? EstrategiaAtaque

@@ -2,11 +2,11 @@
 {
 	public partial class JugadorInfoForm : Form
 	{
-		private Jugador jugador;
+		private IJugador jugador;
 		private Label nombreLabel;
 		private Label puntosLabel;
 
-		public JugadorInfoForm(Jugador jugador)
+		public JugadorInfoForm(IJugador jugador)
 		{
 			InitializeComponent();
 			this.jugador = jugador;

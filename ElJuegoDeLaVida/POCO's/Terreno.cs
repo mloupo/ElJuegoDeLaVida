@@ -34,6 +34,8 @@ namespace EJDLV.Entidades.POCO_s
 		}
 
 		// Otras propiedades del terreno, si las hay
+
+		//el terreno deberia buscar una determinada entidad en su lista de entidades  -> bool tenesEstaEntidad(EntidadQueBusco)
 	}
 }
 

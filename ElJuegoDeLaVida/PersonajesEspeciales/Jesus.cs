@@ -4,7 +4,7 @@ using EJDLV.Entidades.POCO_s;
 
 namespace EJDLV.Entidades.PersonajesEspeciales
 {
-	public class Jesus : IJesus
+	public class Jesus : IJesus, IDieta
 	{
 		// Implementar logica de ataque especifica a Jesús
 		public void Atacar(Entidad objetivo)

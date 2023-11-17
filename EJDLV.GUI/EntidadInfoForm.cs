@@ -2,12 +2,12 @@
 {
 	public partial class EntidadInfoForm : Form
 	{
-		private Entidad entidad;
+		private IEntidad entidad;
 		private Label nombreLabel;
 		private Label energiaLabel;
 		private Label vidaLabel;
 
-		public EntidadInfoForm(Entidad entidad)
+		public EntidadInfoForm(IEntidad entidad)
 		{
 			InitializeComponent();
 			this.entidad = entidad;

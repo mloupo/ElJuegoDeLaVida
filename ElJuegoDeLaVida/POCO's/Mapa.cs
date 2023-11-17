@@ -18,7 +18,8 @@ namespace EJDLV.Entidades.POCO_s
 			{
 				for (int j = 0; j < tamano; j++)
 				{
-					var terreno = new Terreno($"Terreno_{i}_{j}", new Terrestre()); // Aca crear metodo que cree terrenos con superficies aleatorias
+					// Aca crear metodo que cree terrenos con superficies aleatorias
+					var terreno = new Terreno($"Terreno_{i}_{j}", new Terrestre());
 					terrenos.Add(terreno);
 				}
 			}
@@ -83,7 +84,7 @@ namespace EJDLV.Entidades.POCO_s
 
 		private Terreno ObtenerTerrenoEnPosicion(Posicion posicion)
 		{
-			var index = posicion.X + posicion.Y * Math.Sqrt(terrenos.Count);
+			var index = (posicion.X + posicion.Y) * Math.Sqrt(terrenos.Count);
 			if (index >= 0 && index < terrenos.Count)
 			{
 				return terrenos[(int)index];
